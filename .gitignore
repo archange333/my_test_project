@@ -1,0 +1,12 @@
+cmake_install.cmake
+Makefile
+/.vscode
+/build
+/debug
+/CMakeFiles
+.*~
+*.*~
+/*/*.*~
+/Testing
+
+ 
