@@ -6,7 +6,7 @@ Code released under MIT Expat License cf LICENSE.md
 Linux compilation and installation
 -----------------------------------
 requirements: libboost-test-dev
-$>sudo apt-get install libboost-test-dev
+$>sudo apt-get install libboost-test-dev 
 
 to build and install project:
 $>sh install.sh
