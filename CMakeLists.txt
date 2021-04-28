@@ -1,4 +1,4 @@
-cmake_minimum_required (VERSION 3.5)
+cmake_minimum_required (VERSION 3.2)
 project(my_test_project)
 
 set(MAJOR_VERSION 1)
