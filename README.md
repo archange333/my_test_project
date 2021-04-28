@@ -52,5 +52,29 @@ $>sh compile_release.sh
 $>cd build  
 $>cpack  
   
+--------------------------------------
+Use XCode IDE on macos
+--------------------------------------
+create xcode files in the project directory
+$>cmake -G Xcode .
+then open XCode IDE, and select open a
+project or file using the project directory
+
+--------------------------------------
+Use Eclipse IDE on Linux
+--------------------------------------
+create xcode files in the project directory
+$>cmake -G "Eclipse CDT4 - Unix Makefiles" .
+open Eclipse and select opn project from directory
+using the project directory
+
+if there are problems for debugging,
+it is still possible to compile
+in command line
+$>sh compile_debug.sh
+and import the project as Makefile project in Eclipse,
+create a new debug launch configuration with the
+test_custom_sum_main as c++ target application
+
 
 
